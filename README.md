@@ -10,9 +10,7 @@ This application visualizes RNA embeddings in a 3D scatter plot using t-SNE dime
   
   ```bash
   docker --version
-  
-  ---
-
+  ```
 ## Running the App
 
 1. Clone the repository or download the app folder.
