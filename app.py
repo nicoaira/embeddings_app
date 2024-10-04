@@ -122,6 +122,9 @@ def display_hover(hoverData):
         svg_content = f.read()
     encoded_svg = base64.b64encode(svg_content).decode('utf-8')
     img_src = f'data:image/svg+xml;base64,{encoded_svg}'
+
+    # Get the RNA type
+    rna_type = df.loc[df['rnacentral_id'] == rnacentral_id, 'rna_type'].values[0]
     
     # Create the tooltip content
     children = [
