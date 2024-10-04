@@ -122,10 +122,7 @@ def display_hover(hoverData):
         svg_content = f.read()
     encoded_svg = base64.b64encode(svg_content).decode('utf-8')
     img_src = f'data:image/svg+xml;base64,{encoded_svg}'
-
-    # Generate a list of random integers between 200 and 500, and append "px"
-    random_px_list = [f"{random.randint(10, 20)}px" for _ in range(df.shape[0])]
-
+    
     # Create the tooltip content
     children = [
         html.Div([
