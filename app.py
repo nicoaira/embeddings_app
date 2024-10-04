@@ -6,7 +6,6 @@ import base64
 import pandas as pd
 import plotly.express as px
 import os
-import xml.etree.ElementTree as ET
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
 
@@ -68,30 +67,57 @@ fig.update_layout(legend=dict(
 fig.update_traces(
     hoverinfo='none',
     hovertemplate=None
-    
 )
-fig.update_traces(marker=dict(size=3)) 
+
+fig.update_traces(marker=dict(size=3))
 
 app = dash.Dash(__name__)
 
 app.layout = html.Div(
     style={'width': '100vw', 'height': '100vh'},
     children=[
-        dcc.Graph(
-            id='3d-scatter',
-            figure=fig,
-            config={
-                'toImageButtonOptions': {
-                    'format': 'svg',  # Default export format to SVG
-                    'filename': 'emmbeddings-plot',  
-                    'height': 1200,  
-                    'width': 1600,   
-                    'scale': 1      
-                }
-            },
-            style={'width': '100%', 'height': '100%'},
-            clear_on_unhover=True
+        html.Div(
+            style={'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center'},  # Ensures vertical alignment
+            children=[
+                # Add the RadioItems at the top of the page
+                html.Div(
+                    style={'padding': '10px'},
+                    children=[
+                        dcc.RadioItems(
+                            id='structure-type',
+                            options=[
+                                {'label': 'Thumbnails', 'value': 'thumbnails'},
+                                {'label': 'Svg', 'value': 'svg'}
+                            ],
+                            value='thumbnails',  # Default value
+                            labelStyle={'display': 'inline-block', 'margin-right': '10px'}
+                        )
+                    ]
+                ),
+                # Add the 3D plot below the RadioItems
+                html.Div(
+                    style={'width': '100%', 'height': '85vh'},  # Adjusted height to take up 85% of the viewport height
+                    children=[
+                        dcc.Graph(
+                            id='3d-scatter',
+                            figure=fig,
+                            config={
+                                'toImageButtonOptions': {
+                                    'format': 'svg',  # Default export format to SVG
+                                    'filename': 'emmbeddings-plot',
+                                    'height': 1200,
+                                    'width': 1600,
+                                    'scale': 1
+                                }
+                            },
+                            style={'width': '100%', 'height': '100%'},  # Ensure the plot takes full height of its container
+                            clear_on_unhover=True
+                        ),
+                    ]
+                ),
+            ]
         ),
+        # Tooltip component
         dcc.Tooltip(id='graph-tooltip', direction='bottom'),
     ],
 )
@@ -101,8 +127,9 @@ app.layout = html.Div(
     Output('graph-tooltip', 'bbox'),
     Output('graph-tooltip', 'children'),
     Input('3d-scatter', 'hoverData'),
+    Input('structure-type', 'value'),  # New input for radio button
 )
-def display_hover(hoverData):
+def display_hover(hoverData, structure_type):
     if hoverData is None:
         return False, no_update, no_update
 
@@ -111,8 +138,11 @@ def display_hover(hoverData):
     bbox = hover_data['bbox']  # Use bbox from hover data
     rnacentral_id = hover_data['customdata'][0]  # Get rnacentral_id from customdata
 
-    # Construct the file path to the SVG image
-    svg_file = f'./thumbnail_resize/{rnacentral_id}.thumbnail.svg'
+    # Determine which file to use based on the selected structure type
+    if structure_type == 'thumbnails':
+        svg_file = f'./thumbnail_resize/{rnacentral_id}.thumbnail.svg'
+    else:
+        svg_file = f'./svg_resize/{rnacentral_id}.colored.svg'
 
     if not os.path.exists(svg_file):
         return False, no_update, no_update
