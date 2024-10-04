@@ -2,6 +2,9 @@
 
 This application visualizes RNA embeddings in a 3D scatter plot using t-SNE dimensionality reduction. The plot is interactive, and additional details about each point are displayed when hovering over them. The app is built using [Dash](https://plotly.com/dash/) and packaged with Docker for ease of deployment.
 
+
+https://github.com/user-attachments/assets/ad5d9bbc-dc46-4089-b139-913e50a49ee1
+
 ---
 
 ## Prerequisites
