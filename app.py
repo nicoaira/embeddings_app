@@ -1,5 +1,4 @@
 import pandas as pd
-
 from dash.dependencies import ClientsideFunction, Input, Output
 import dash
 from dash import dcc, html, Input, Output, callback, no_update
@@ -8,6 +7,8 @@ import pandas as pd
 import plotly.express as px
 import os
 import xml.etree.ElementTree as ET
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
 
 
 # Load your dataframe
@@ -16,16 +17,13 @@ df = df[df['rna_type'] != "tmRNA"]
 df = df[df['rna_type'] != "ribozyme"]
 unique_rna_types = df['rna_type'].unique()
 num_categories = len(unique_rna_types)
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 
 def get_distinct_colors(n):
-    colors = plt.cm.get_cmap('tab20', n)
+    colors = plt.get_cmap('tab20', n)
     return [mcolors.rgb2hex(colors(i)) for i in range(n)]
 
 color_sequence = get_distinct_colors(num_categories)
 color_discrete_map = dict(zip(unique_rna_types, color_sequence))
-
 
 # Ensure 'rna_type' is of string type
 df['rna_type'] = df['rna_type'].astype(str)
@@ -73,7 +71,6 @@ fig.update_traces(
     
 )
 fig.update_traces(marker=dict(size=3)) 
-
 
 app = dash.Dash(__name__)
 
@@ -125,10 +122,6 @@ def display_hover(hoverData):
         svg_content = f.read()
     encoded_svg = base64.b64encode(svg_content).decode('utf-8')
     img_src = f'data:image/svg+xml;base64,{encoded_svg}'
-
-    # Get the RNA type
-    rna_type = df.loc[df['rnacentral_id'] == rnacentral_id, 'rna_type'].values[0]
-    import random
 
     # Generate a list of random integers between 200 and 500, and append "px"
     random_px_list = [f"{random.randint(10, 20)}px" for _ in range(df.shape[0])]
