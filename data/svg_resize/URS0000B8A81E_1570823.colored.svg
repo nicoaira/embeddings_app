@@ -1,0 +1,956 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="300px" height="268.91608437968205px" viewBox="0 0 754.21 676.064">
+<ns0:g><ns0:style type="text/css">
+
+
+circle.red {stroke: rgb(255, 0, 255); fill: none; }
+circle.green {stroke: rgb(0, 255, 0); fill: none; }
+circle.blue {stroke: rgb(0, 0, 255); fill: none; }
+circle.black {stroke: rgb(0, 0, 0); fill: none; }
+circle.gray {stroke: rgb(204, 204, 204); fill: none; }
+circle.brown {stroke: rgb(211.65, 104.55, 30.6); fill: none; }
+line.red {stroke: rgb(255, 0, 255); stroke-width: 0.382881; }
+line.green {stroke: rgb(0, 255, 0); stroke-width: 0.382881; }
+line.blue {stroke: rgb(0, 0, 255); stroke-width: 0.382881; }
+line.black {stroke: rgb(0, 0, 0); stroke-width: 0.382881; }
+line.gray {stroke: rgb(204, 204, 204); stroke-width: 0.382881; }
+line.brown {stroke: rgb(211.65, 104.55, 30.6); stroke-width: 0.382881; }
+line {stroke: rgb(0, 0, 0); }
+text.red {fill: rgb(255, 0, 255); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text.green {fill: rgb(0, 255, 0); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text.blue {fill: rgb(0, 0, 255); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text.black {fill: rgb(0, 0, 0); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text.gray {fill: rgb(204, 204, 204); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text.brown {fill: rgb(211.65, 104.55, 30.6); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; }
+text {fill: rgb(0, 0, 0); font-size: 3.063049px; font-weight: bold; font-family: Helvetica; text-anchor: middle; alignment-baseline: middle; }
+
+.pseudoknot_connection{stroke-linecap: round; stroke-opacity: 0.2; stroke-width: 1.5; }
+.pseudoknot_segment1{stroke-linecap: round; stroke-opacity: 0.4; stroke-width: 3.06305; }
+.pseudoknot_segment2{stroke-linecap: round; stroke-opacity: 0.4; stroke-width: 3.06305; }
+line.numbering-line{stroke: rgb(204, 204, 204); stroke-width: 0.191441; }
+line.predicted{stroke: rgb(0, 0, 0); stroke-dasharray: 2; }
+polyline{fill: none; stroke-linejoin: round; }
+template{visibility: hidden; }
+text.numbering-label{fill: rgb(204, 204, 204); }
+
+</ns0:style></ns0:g>
+<ns0:g><ns0:title>0 (position.label in template: 0.5')</ns0:title><ns0:text x="65.37" y="628.376" class="green">5'</ns0:text></ns0:g>
+<ns0:g><ns0:title>1 (position.label in template: 1.G)</ns0:title><ns0:text x="65.37" y="620.82" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.412" y1="620.514" x2="75.778" y2="620.514" class="black" /></ns0:g>
+<ns0:g><ns0:title>2 (position.label in template: 2.G)</ns0:title><ns0:text x="65.37" y="613.26" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.412" y1="612.954" x2="75.778" y2="612.954" class="black" /></ns0:g>
+<ns0:g><ns0:title>3 (position.label in template: 3.G)</ns0:title><ns0:text x="65.37" y="605.7" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.412" y1="605.394" x2="75.778" y2="605.394" class="black" /></ns0:g>
+<ns0:g><ns0:title>4 (position.label in template: 4.G)</ns0:title><ns0:text x="65.37" y="598.14" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.412" y1="597.834" x2="75.778" y2="597.834" class="black" /></ns0:g>
+<ns0:g><ns0:title>5 (position.label in template: 5.A)</ns0:title><ns0:text x="65.79" y="590.58" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.832" y1="590.274" x2="75.778" y2="590.274" class="black" /></ns0:g>
+<ns0:g><ns0:title>6 (position.label in template: 6.U)</ns0:title><ns0:text x="65.58" y="583.02" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.622" y1="582.714" x2="75.988" y2="582.714" class="black" /></ns0:g>
+<ns0:g><ns0:title>7 (position.label in template: 7.G)</ns0:title><ns0:text x="65.37" y="575.46" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="67.412" y1="575.154" x2="75.778" y2="575.154" class="black" /></ns0:g>
+<ns0:g><ns0:title>8 (position.label in template: 8.A)</ns0:title><ns0:text x="59.02" y="572.09" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>9 (position.label in template: 9.U)</ns0:title><ns0:text x="53.62" y="566.6" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>10 (position.label in template: 10.C)</ns0:title><ns0:text x="50.63" y="559.65" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:text x="43.9436" y="561.32" class="numbering-label sequential">10</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="48.847" y1="560.095" x2="45.7815" y2="560.861" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>11 (position.label in template: 11.G)</ns0:title><ns0:text x="50" y="552.11" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>12 (position.label in template: 12.G)</ns0:title><ns0:text x="52.2" y="544.87" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>13 (position.label in template: 13.U)</ns0:title><ns0:text x="56.97" y="538.84" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>14 (position.label in template: 14.U)</ns0:title><ns0:text x="63.32" y="534.74" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>15 (position.label in template: 15.U)</ns0:title><ns0:text x="70.69" y="533.07" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>16 (position.label in template: 16.C)</ns0:title><ns0:text x="78.19" y="534.04" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>17 (position.label in template: 17.G)</ns0:title><ns0:text x="84.68" y="537.53" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="85.9255" y1="538.842" x2="91.0545" y2="545.505" class="black" /></ns0:g>
+<ns0:g><ns0:title>18 (position.label in template: 18.A)</ns0:title><ns0:text x="91.22" y="533.09" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="92.3738" y1="534.468" x2="96.8462" y2="540.999" class="black" /></ns0:g>
+<ns0:g><ns0:title>19 (position.label in template: 19.C)</ns0:title><ns0:text x="97.12" y="528.64" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="98.2978" y1="530.002" x2="102.932" y2="536.566" class="black" /></ns0:g>
+<ns0:g><ns0:title>20 (position.label in template: 20.A)</ns0:title><ns0:text x="103.44" y="524.19" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="104.619" y1="525.551" x2="109.261" y2="532.116" class="black" /></ns0:g>
+<ns0:g><ns0:text x="99.3419" y="518.649" class="numbering-label sequential">20</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="102.347" y1="522.712" x2="100.475" y2="520.181" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>21 (position.label in template: 21.G)</ns0:title><ns0:text x="109.14" y="519.75" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="110.364" y1="521.079" x2="115.326" y2="527.709" class="black" /></ns0:g>
+<ns0:g><ns0:title>22 (position.label in template: 22.C)</ns0:title><ns0:text x="115.47" y="515.3" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="116.647" y1="516.663" x2="121.273" y2="523.225" class="black" /></ns0:g>
+<ns0:g><ns0:title>23 (position.label in template: 23.G)</ns0:title><ns0:text x="121.37" y="510.85" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="122.594" y1="512.179" x2="127.556" y2="518.809" class="black" /></ns0:g>
+<ns0:g><ns0:title>24 (position.label in template: 24.G)</ns0:title><ns0:text x="127.48" y="506.41" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="128.704" y1="507.739" x2="133.666" y2="514.369" class="black" /></ns0:g>
+<ns0:g><ns0:title>25 (position.label in template: 25.C)</ns0:title><ns0:text x="133.81" y="501.96" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="135.033" y1="503.289" x2="139.987" y2="509.918" class="black" /></ns0:g>
+<ns0:g><ns0:title>26 (position.label in template: 26.U)</ns0:title><ns0:text x="139.92" y="497.52" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="141.122" y1="498.865" x2="145.918" y2="505.453" class="black" /></ns0:g>
+<ns0:g><ns0:title>27 (position.label in template: 27.G)</ns0:title><ns0:text x="145.83" y="493.07" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="147.03" y1="494.416" x2="151.82" y2="501.011" class="black" /></ns0:g>
+<ns0:g><ns0:title>28 (position.label in template: 28.U)</ns0:title><ns0:text x="152.15" y="488.62" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="153.351" y1="489.965" x2="158.149" y2="496.562" class="black" /></ns0:g>
+<ns0:g><ns0:title>29 (position.label in template: 29.C)</ns0:title><ns0:text x="151.36" y="481.1" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>30 (position.label in template: 30.G)</ns0:title><ns0:text x="158.05" y="484.17" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="159.274" y1="485.499" x2="164.236" y2="492.129" class="black" /></ns0:g>
+<ns0:g><ns0:text x="157.34" y="477.315" class="numbering-label sequential">30</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="157.861" y1="482.342" x2="157.498" y2="478.846" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>31 (position.label in template: 31.A)</ns0:title><ns0:text x="164.58" y="479.73" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="165.759" y1="481.091" x2="170.401" y2="487.656" class="black" /></ns0:g>
+<ns0:g><ns0:title>32 (position.label in template: 32.A)</ns0:title><ns0:text x="170.7" y="475.28" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="171.878" y1="476.642" x2="176.512" y2="483.206" class="black" /></ns0:g>
+<ns0:g><ns0:title>33 (position.label in template: 33.G)</ns0:title><ns0:text x="176.4" y="470.83" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="177.6" y1="472.176" x2="182.39" y2="478.771" class="black" /></ns0:g>
+<ns0:g><ns0:title>34 (position.label in template: 34.C)</ns0:title><ns0:text x="182.72" y="466.39" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="183.898" y1="467.752" x2="188.532" y2="474.316" class="black" /></ns0:g>
+<ns0:g><ns0:title>35 (position.label in template: 35.A)</ns0:title><ns0:text x="189.04" y="461.94" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="190.218" y1="463.302" x2="194.852" y2="469.866" class="black" /></ns0:g>
+<ns0:g><ns0:title>36 (position.label in template: 36.G)</ns0:title><ns0:text x="194.74" y="457.5" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="195.964" y1="458.829" x2="200.926" y2="465.459" class="black" /></ns0:g>
+<ns0:g><ns0:title>37 (position.label in template: 37.G)</ns0:title><ns0:text x="200.85" y="453.05" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="202.074" y1="454.379" x2="207.036" y2="461.009" class="black" /></ns0:g>
+<ns0:g><ns0:title>38 (position.label in template: 38.G)</ns0:title><ns0:text x="206.97" y="448.6" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="208.194" y1="449.929" x2="213.156" y2="456.559" class="black" /></ns0:g>
+<ns0:g><ns0:title>39 (position.label in template: 39.G)</ns0:title><ns0:text x="213.08" y="444.16" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="214.281" y1="445.505" x2="219.079" y2="452.102" class="black" /></ns0:g>
+<ns0:g><ns0:title>40 (position.label in template: 40.A)</ns0:title><ns0:text x="219.61" y="439.71" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="220.811" y1="441.055" x2="225.609" y2="447.652" class="black" /></ns0:g>
+<ns0:g><ns0:title>41 (position.label in template: 41.A)</ns0:title><ns0:text x="225.72" y="435.26" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="226.921" y1="436.605" x2="231.719" y2="443.202" class="black" /></ns0:g>
+<ns0:g><ns0:title>42 (position.label in template: 42.G)</ns0:title><ns0:text x="229.06" y="428.7" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>43 (position.label in template: 43.C)</ns0:title><ns0:text x="236.67" y="427.15" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="237.848" y1="428.512" x2="242.482" y2="435.076" class="black" /></ns0:g>
+<ns0:g><ns0:title>44 (position.label in template: 44.G)</ns0:title><ns0:text x="242.57" y="422.71" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="243.794" y1="424.038" x2="248.756" y2="430.659" class="black" /></ns0:g>
+<ns0:g><ns0:title>45 (position.label in template: 45.U)</ns0:title><ns0:text x="248.9" y="418.26" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="250.123" y1="419.589" x2="255.077" y2="426.218" class="black" /></ns0:g>
+<ns0:g><ns0:title>46 (position.label in template: 46.G)</ns0:title><ns0:text x="254.8" y="413.81" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="256.024" y1="415.139" x2="260.986" y2="421.769" class="black" /></ns0:g>
+<ns0:g><ns0:title>47 (position.label in template: 47.U)</ns0:title><ns0:text x="261.13" y="409.37" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="262.353" y1="410.699" x2="267.307" y2="417.319" class="black" /></ns0:g>
+<ns0:g><ns0:title>48 (position.label in template: 48.C)</ns0:title><ns0:text x="257.02" y="403.02" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>49 (position.label in template: 49.G)</ns0:title><ns0:text x="252.97" y="396.5" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>50 (position.label in template: 50.A)</ns0:title><ns0:text x="249.82" y="389.84" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:text x="243.675" y="392.96" class="numbering-label sequential">50</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="248.181" y1="390.672" x2="245.513" y2="392.027" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>51 (position.label in template: 51.G)</ns0:title><ns0:text x="246.13" y="383.03" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>52 (position.label in template: 52.G)</ns0:title><ns0:text x="243.13" y="376.08" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>53 (position.label in template: 53.A)</ns0:title><ns0:text x="240.84" y="369.02" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>54 (position.label in template: 54.A)</ns0:title><ns0:text x="238.44" y="361.86" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>55 (position.label in template: 55.G)</ns0:title><ns0:text x="235.91" y="354.6" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="235.515" y1="352.29" x2="233.955" y2="344.367" class="black" /></ns0:g>
+<ns0:g><ns0:title>56 (position.label in template: 56.C)</ns0:title><ns0:text x="228.76" y="356.31" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="228.265" y1="354.023" x2="226.275" y2="346.055" class="black" /></ns0:g>
+<ns0:g><ns0:title>57 (position.label in template: 57.G)</ns0:title><ns0:text x="221.18" y="358.01" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="220.753" y1="355.707" x2="219.057" y2="347.781" class="black" /></ns0:g>
+<ns0:g><ns0:title>58 (position.label in template: 58.G)</ns0:title><ns0:text x="213.82" y="359.72" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="213.391" y1="357.417" x2="211.689" y2="349.49" class="black" /></ns0:g>
+<ns0:g><ns0:title>59 (position.label in template: 59.C)</ns0:title><ns0:text x="206.66" y="361.43" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="206.167" y1="359.142" x2="204.183" y2="351.175" class="black" /></ns0:g>
+<ns0:g><ns0:title>60 (position.label in template: 60.C)</ns0:title><ns0:text x="199.3" y="363.13" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="198.805" y1="360.843" x2="196.815" y2="352.885" class="black" /></ns0:g>
+<ns0:g><ns0:title>61 (position.label in template: 61.A)</ns0:title><ns0:text x="192.14" y="364.84" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="191.679" y1="362.544" x2="189.841" y2="354.603" class="black" /></ns0:g>
+<ns0:g><ns0:title>62 (position.label in template: 62.U)</ns0:title><ns0:text x="190.31" y="372.23" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>63 (position.label in template: 63.G)</ns0:title><ns0:text x="186.13" y="378.66" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>64 (position.label in template: 64.A)</ns0:title><ns0:text x="180.67" y="383.41" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>65 (position.label in template: 65.U)</ns0:title><ns0:text x="173.35" y="385.96" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>66 (position.label in template: 66.C)</ns0:title><ns0:text x="165.79" y="386" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>67 (position.label in template: 67.U)</ns0:title><ns0:text x="158.64" y="383.54" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>68 (position.label in template: 68.C)</ns0:title><ns0:text x="152.7" y="378.86" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>69 (position.label in template: 69.G)</ns0:title><ns0:text x="148.45" y="372.47" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>70 (position.label in template: 70.U)</ns0:title><ns0:text x="146.95" y="365.11" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>71 (position.label in template: 71.A)</ns0:title><ns0:text x="147.98" y="357.59" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>72 (position.label in template: 72.A)</ns0:title><ns0:text x="151.25" y="350.77" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>73 (position.label in template: 73.A)</ns0:title><ns0:text x="156.58" y="345.42" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>74 (position.label in template: 74.C)</ns0:title><ns0:text x="163.19" y="342.13" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>75 (position.label in template: 75.C)</ns0:title><ns0:text x="170.7" y="341.28" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>76 (position.label in template: 76.A)</ns0:title><ns0:text x="178.28" y="342.97" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>77 (position.label in template: 77.C)</ns0:title><ns0:text x="184.47" y="347" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>78 (position.label in template: 78.A)</ns0:title><ns0:text x="189.38" y="352.92" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>79 (position.label in template: 79.G)</ns0:title><ns0:text x="196.32" y="351.21" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>80 (position.label in template: 80.G)</ns0:title><ns0:text x="203.69" y="349.5" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>81 (position.label in template: 81.C)</ns0:title><ns0:text x="211.26" y="347.8" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>82 (position.label in template: 82.C)</ns0:title><ns0:text x="218.63" y="346.09" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>83 (position.label in template: 83.G)</ns0:title><ns0:text x="225.78" y="344.38" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>84 (position.label in template: 84.A)</ns0:title><ns0:text x="233.56" y="342.67" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>85 (position.label in template: 85.A)</ns0:title><ns0:text x="232.26" y="335.23" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>86 (position.label in template: 86.A)</ns0:title><ns0:text x="231.27" y="327.73" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>87 (position.label in template: 87.A)</ns0:title><ns0:text x="230.59" y="320.2" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>88 (position.label in template: 88.A)</ns0:title><ns0:text x="230.23" y="312.65" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>89 (position.label in template: 89.A)</ns0:title><ns0:text x="230.18" y="305.09" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>90 (position.label in template: 90.A)</ns0:title><ns0:text x="230.45" y="297.54" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>91 (position.label in template: 91.U)</ns0:title><ns0:text x="230.82" y="290" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>92 (position.label in template: 92.A)</ns0:title><ns0:text x="231.92" y="282.49" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>93 (position.label in template: 93.A)</ns0:title><ns0:text x="233.13" y="275.03" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>94 (position.label in template: 94.U)</ns0:title><ns0:text x="234.44" y="267.62" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>95 (position.label in template: 95.C)</ns0:title><ns0:text x="236.26" y="260.29" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>96 (position.label in template: 96.G)</ns0:title><ns0:text x="238.18" y="253.03" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>97 (position.label in template: 97.C)</ns0:title><ns0:text x="240.82" y="245.87" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>98 (position.label in template: 98.C)</ns0:title><ns0:text x="243.55" y="238.82" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>99 (position.label in template: 99.A)</ns0:title><ns0:text x="246.77" y="231.89" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>100 (position.label in template: 100.A)</ns0:title><ns0:text x="250.07" y="225.09" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:text x="243.897" y="222.026" class="numbering-label sequential">100</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="248.424" y1="224.273" x2="246.653" y2="223.394" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>101 (position.label in template: 101.U)</ns0:title><ns0:text x="253.45" y="218.43" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>102 (position.label in template: 102.U)</ns0:title><ns0:text x="257.31" y="211.93" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>103 (position.label in template: 103.C)</ns0:title><ns0:text x="261.43" y="205.6" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>104 (position.label in template: 104.C)</ns0:title><ns0:text x="265.82" y="199.44" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>105 (position.label in template: 105.A)</ns0:title><ns0:text x="270.66" y="193.47" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>106 (position.label in template: 106.A)</ns0:title><ns0:text x="275.55" y="187.7" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>107 (position.label in template: 107.G)</ns0:title><ns0:text x="280.25" y="182.14" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>108 (position.label in template: 108.C)</ns0:title><ns0:text x="285.81" y="176.79" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>109 (position.label in template: 109.G)</ns0:title><ns0:text x="291.16" y="171.67" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>110 (position.label in template: 110.A)</ns0:title><ns0:text x="297.35" y="166.79" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>111 (position.label in template: 111.U)</ns0:title><ns0:text x="303.12" y="162.16" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>112 (position.label in template: 112.C)</ns0:title><ns0:text x="309.28" y="157.77" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>113 (position.label in template: 113.U)</ns0:title><ns0:text x="315.62" y="153.65" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>114 (position.label in template: 114.G)</ns0:title><ns0:text x="321.91" y="149.8" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>115 (position.label in template: 115.U)</ns0:title><ns0:text x="328.78" y="146.22" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>116 (position.label in template: 116.C)</ns0:title><ns0:text x="335.58" y="142.92" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>117 (position.label in template: 117.U)</ns0:title><ns0:text x="342.52" y="139.91" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>118 (position.label in template: 118.C)</ns0:title><ns0:text x="349.57" y="137.19" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>119 (position.label in template: 119.C)</ns0:title><ns0:text x="356.73" y="134.76" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>120 (position.label in template: 120.C)</ns0:title><ns0:text x="363.99" y="132.63" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>121 (position.label in template: 121.A)</ns0:title><ns0:text x="371.53" y="130.82" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>122 (position.label in template: 122.G)</ns0:title><ns0:text x="378.52" y="129.3" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>123 (position.label in template: 123.G)</ns0:title><ns0:text x="385.98" y="128.1" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>124 (position.label in template: 124.G)</ns0:title><ns0:text x="393.49" y="127.21" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>125 (position.label in template: 125.C)</ns0:title><ns0:text x="401.24" y="126.63" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>126 (position.label in template: 126.G)</ns0:title><ns0:text x="408.58" y="126.37" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>127 (position.label in template: 127.A)</ns0:title><ns0:text x="416.56" y="126.42" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>128 (position.label in template: 128.G)</ns0:title><ns0:text x="423.69" y="126.79" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>129 (position.label in template: 129.C)</ns0:title><ns0:text x="431.43" y="127.47" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>130 (position.label in template: 130.U)</ns0:title><ns0:text x="438.93" y="128.47" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>131 (position.label in template: 131.C)</ns0:title><ns0:text x="446.37" y="129.77" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>132 (position.label in template: 132.G)</ns0:title><ns0:text x="453.55" y="131.39" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>133 (position.label in template: 133.C)</ns0:title><ns0:text x="461.07" y="133.31" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>134 (position.label in template: 134.C)</ns0:title><ns0:text x="468.3" y="135.54" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="470.216" y1="135.94" x2="477.864" y2="138.758" class="black" /></ns0:g>
+<ns0:g><ns0:title>135 (position.label in template: 135.C)</ns0:title><ns0:text x="470.91" y="128.44" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="472.821" y1="128.852" x2="480.279" y2="131.655" class="black" /></ns0:g>
+<ns0:g><ns0:title>136 (position.label in template: 136.U)</ns0:title><ns0:text x="473.53" y="121.35" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="475.45" y1="121.74" x2="483.3" y2="124.587" class="black" /></ns0:g>
+<ns0:g><ns0:title>137 (position.label in template: 137.C)</ns0:title><ns0:text x="476.14" y="114.26" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="478.052" y1="114.671" x2="485.508" y2="117.467" class="black" /></ns0:g>
+<ns0:g><ns0:title>138 (position.label in template: 138.G)</ns0:title><ns0:text x="478.55" y="107.16" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="480.47" y1="107.549" x2="488.33" y2="110.398" class="black" /></ns0:g>
+<ns0:g><ns0:title>139 (position.label in template: 139.C)</ns0:title><ns0:text x="481.38" y="100.07" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="483.291" y1="100.483" x2="490.739" y2="103.285" class="black" /></ns0:g>
+<ns0:g><ns0:title>140 (position.label in template: 140.U)</ns0:title><ns0:text x="483.99" y="92.98" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="485.91" y1="93.37" x2="493.76" y2="96.2174" class="black" /></ns0:g>
+<ns0:g><ns0:title>141 (position.label in template: 141.G)</ns0:title><ns0:text x="486.4" y="85.89" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="488.32" y1="86.2785" x2="496.17" y2="89.1189" class="black" /></ns0:g>
+<ns0:g><ns0:title>142 (position.label in template: 142.C)</ns0:title><ns0:text x="489.23" y="78.79" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="491.141" y1="79.2027" x2="498.589" y2="82.0046" class="black" /></ns0:g>
+<ns0:g><ns0:title>143 (position.label in template: 143.C)</ns0:title><ns0:text x="484.9" y="72.59" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>144 (position.label in template: 144.U)</ns0:title><ns0:text x="483.79" y="65.11" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>145 (position.label in template: 145.G)</ns0:title><ns0:text x="485.9" y="57.92" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>146 (position.label in template: 146.A)</ns0:title><ns0:text x="491.6" y="52.51" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>147 (position.label in template: 147.U)</ns0:title><ns0:text x="498.52" y="50" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>148 (position.label in template: 148.C)</ns0:title><ns0:text x="506.03" y="50.93" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>149 (position.label in template: 149.U)</ns0:title><ns0:text x="512.33" y="55.1" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>150 (position.label in template: 150.U)</ns0:title><ns0:text x="516.13" y="61.64" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:text x="522.721" y="59.627" class="numbering-label sequential">150</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="517.888" y1="61.1032" x2="519.965" y2="60.4689" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>151 (position.label in template: 151.C)</ns0:title><ns0:text x="516.63" y="69.18" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>152 (position.label in template: 152.A)</ns0:title><ns0:text x="513.94" y="76.16" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>153 (position.label in template: 153.G)</ns0:title><ns0:text x="507.81" y="81.12" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>154 (position.label in template: 154.G)</ns0:title><ns0:text x="500.5" y="83.03" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>155 (position.label in template: 155.U)</ns0:title><ns0:text x="498.09" y="90.12" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>156 (position.label in template: 156.A)</ns0:title><ns0:text x="495.68" y="97.22" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>157 (position.label in template: 157.G)</ns0:title><ns0:text x="492.65" y="104.31" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>158 (position.label in template: 158.C)</ns0:title><ns0:text x="490.25" y="111.4" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>159 (position.label in template: 159.G)</ns0:title><ns0:text x="487.42" y="118.49" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>160 (position.label in template: 160.A)</ns0:title><ns0:text x="485.22" y="125.59" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>161 (position.label in template: 161.G)</ns0:title><ns0:text x="482.19" y="132.68" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>162 (position.label in template: 162.C)</ns0:title><ns0:text x="479.78" y="139.77" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>163 (position.label in template: 163.A)</ns0:title><ns0:text x="486.93" y="142.77" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>164 (position.label in template: 164.G)</ns0:title><ns0:text x="493.32" y="146.06" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>165 (position.label in template: 165.C)</ns0:title><ns0:text x="500.19" y="149.63" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>166 (position.label in template: 166.G)</ns0:title><ns0:text x="506.5" y="153.47" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>167 (position.label in template: 167.G)</ns0:title><ns0:text x="512.84" y="157.58" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>168 (position.label in template: 168.C)</ns0:title><ns0:text x="519.22" y="161.95" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>169 (position.label in template: 169.U)</ns0:title><ns0:text x="525.2" y="166.57" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>170 (position.label in template: 170.C)</ns0:title><ns0:text x="530.98" y="171.44" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>171 (position.label in template: 171.C)</ns0:title><ns0:text x="536.56" y="176.55" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>172 (position.label in template: 172.C)</ns0:title><ns0:text x="541.92" y="181.88" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>173 (position.label in template: 173.C)</ns0:title><ns0:text x="547.05" y="187.43" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>174 (position.label in template: 174.U)</ns0:title><ns0:text x="551.94" y="193.19" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>175 (position.label in template: 175.A)</ns0:title><ns0:text x="556.8" y="199.15" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>176 (position.label in template: 176.C)</ns0:title><ns0:text x="560.99" y="205.3" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>177 (position.label in template: 177.U)</ns0:title><ns0:text x="565.13" y="211.63" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>178 (position.label in template: 178.U)</ns0:title><ns0:text x="569" y="218.12" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>179 (position.label in template: 179.A)</ns0:title><ns0:text x="572.8" y="224.77" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>180 (position.label in template: 180.A)</ns0:title><ns0:text x="576.12" y="231.57" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>181 (position.label in template: 181.G)</ns0:title><ns0:text x="578.73" y="238.49" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>182 (position.label in template: 182.G)</ns0:title><ns0:text x="581.47" y="245.54" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>183 (position.label in template: 183.G)</ns0:title><ns0:text x="583.91" y="252.7" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>184 (position.label in template: 184.A)</ns0:title><ns0:text x="586.47" y="259.95" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>185 (position.label in template: 185.G)</ns0:title><ns0:text x="587.89" y="267.28" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>186 (position.label in template: 186.U)</ns0:title><ns0:text x="589.63" y="274.68" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="589.968" y1="276.388" x2="591.322" y2="284.46" class="black" /></ns0:g>
+<ns0:g><ns0:title>187 (position.label in template: 187.G)</ns0:title><ns0:text x="596.9" y="273.56" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="597.238" y1="275.268" x2="598.592" y2="283.34" class="black" /></ns0:g>
+<ns0:g><ns0:title>188 (position.label in template: 188.U)</ns0:title><ns0:text x="604.59" y="272.43" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="604.859" y1="274.148" x2="605.931" y2="282.2" class="black" /></ns0:g>
+<ns0:g><ns0:title>189 (position.label in template: 189.C)</ns0:title><ns0:text x="612.06" y="271.31" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="612.329" y1="273.028" x2="613.401" y2="281.08" class="black" /></ns0:g>
+<ns0:g><ns0:title>190 (position.label in template: 190.A)</ns0:title><ns0:text x="619.74" y="270.18" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="620.011" y1="271.898" x2="621.089" y2="279.95" class="black" /></ns0:g>
+<ns0:g><ns0:title>191 (position.label in template: 191.G)</ns0:title><ns0:text x="626.8" y="269.06" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="627.139" y1="270.767" x2="628.501" y2="278.84" class="black" /></ns0:g>
+<ns0:g><ns0:title>192 (position.label in template: 192.C)</ns0:title><ns0:text x="633.37" y="264.96" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>193 (position.label in template: 193.C)</ns0:title><ns0:text x="640.65" y="267" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="640.919" y1="268.718" x2="641.991" y2="276.779" class="black" /></ns0:g>
+<ns0:g><ns0:title>194 (position.label in template: 194.C)</ns0:title><ns0:text x="648.13" y="265.88" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="648.399" y1="267.598" x2="649.471" y2="275.65" class="black" /></ns0:g>
+<ns0:g><ns0:title>195 (position.label in template: 195.G)</ns0:title><ns0:text x="655.39" y="264.75" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="655.728" y1="266.458" x2="657.082" y2="274.54" class="black" /></ns0:g>
+<ns0:g><ns0:title>196 (position.label in template: 196.G)</ns0:title><ns0:text x="662.87" y="263.63" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="663.208" y1="265.338" x2="664.562" y2="273.41" class="black" /></ns0:g>
+<ns0:g><ns0:title>197 (position.label in template: 197.G)</ns0:title><ns0:text x="664.92" y="256.35" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>198 (position.label in template: 198.G)</ns0:title><ns0:text x="672.4" y="255.23" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>199 (position.label in template: 199.A)</ns0:title><ns0:text x="676.92" y="261.58" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="677.224" y1="263.293" x2="678.436" y2="271.354" class="black" /></ns0:g>
+<ns0:g><ns0:title>200 (position.label in template: 200.U)</ns0:title><ns0:text x="684.19" y="260.45" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="684.459" y1="262.168" x2="685.531" y2="270.22" class="black" /></ns0:g>
+<ns0:g><ns0:text x="681.12" y="254.28" class="numbering-label sequential">200</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="683.371" y1="258.805" x2="681.882" y2="255.811" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>201 (position.label in template: 201.G)</ns0:title><ns0:text x="689.52" y="255.31" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>202 (position.label in template: 202.U)</ns0:title><ns0:text x="697.29" y="255.11" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>203 (position.label in template: 203.U)</ns0:title><ns0:text x="703.08" y="259.98" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>204 (position.label in template: 204.C)</ns0:title><ns0:text x="704.21" y="267.45" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>205 (position.label in template: 205.C)</ns0:title><ns0:text x="700.1" y="273.8" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>206 (position.label in template: 206.C)</ns0:title><ns0:text x="692.82" y="275.84" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>207 (position.label in template: 207.G)</ns0:title><ns0:text x="685.8" y="272.55" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>208 (position.label in template: 208.A)</ns0:title><ns0:text x="678.74" y="273.68" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>209 (position.label in template: 209.C)</ns0:title><ns0:text x="672.18" y="277.77" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>210 (position.label in template: 210.C)</ns0:title><ns0:text x="664.9" y="275.73" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>211 (position.label in template: 211.C)</ns0:title><ns0:text x="657.42" y="276.86" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>212 (position.label in template: 212.G)</ns0:title><ns0:text x="649.74" y="277.98" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>213 (position.label in template: 213.G)</ns0:title><ns0:text x="642.26" y="279.11" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>214 (position.label in template: 214.A)</ns0:title><ns0:text x="643.51" y="286.62" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>215 (position.label in template: 215.U)</ns0:title><ns0:text x="637.33" y="291.26" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>216 (position.label in template: 216.C)</ns0:title><ns0:text x="630.25" y="288.58" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>217 (position.label in template: 217.C)</ns0:title><ns0:text x="628.84" y="281.16" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>218 (position.label in template: 218.U)</ns0:title><ns0:text x="621.36" y="282.28" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>219 (position.label in template: 219.G)</ns0:title><ns0:text x="613.67" y="283.41" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>220 (position.label in template: 220.G)</ns0:title><ns0:text x="606.2" y="284.53" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>221 (position.label in template: 221.C)</ns0:title><ns0:text x="598.93" y="285.66" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>222 (position.label in template: 222.A)</ns0:title><ns0:text x="591.66" y="286.78" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>223 (position.label in template: 223.U)</ns0:title><ns0:text x="592.17" y="294.31" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>224 (position.label in template: 224.C)</ns0:title><ns0:text x="592.57" y="301.86" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>225 (position.label in template: 225.A)</ns0:title><ns0:text x="592.87" y="309.42" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>226 (position.label in template: 226.G)</ns0:title><ns0:text x="592.22" y="316.98" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>227 (position.label in template: 227.C)</ns0:title><ns0:text x="591.89" y="324.52" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>228 (position.label in template: 228.U)</ns0:title><ns0:text x="591.03" y="332.03" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>229 (position.label in template: 229.A)</ns0:title><ns0:text x="590.07" y="339.5" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>230 (position.label in template: 230.G)</ns0:title><ns0:text x="588.17" y="346.91" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>231 (position.label in template: 231.G)</ns0:title><ns0:text x="586.38" y="354.26" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>232 (position.label in template: 232.G)</ns0:title><ns0:text x="584.29" y="361.52" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>233 (position.label in template: 233.A)</ns0:title><ns0:text x="582.31" y="368.69" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>234 (position.label in template: 234.A)</ns0:title><ns0:text x="579.62" y="375.76" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>235 (position.label in template: 235.C)</ns0:title><ns0:text x="576.43" y="382.7" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>236 (position.label in template: 236.U)</ns0:title><ns0:text x="573.16" y="389.52" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>237 (position.label in template: 237.A)</ns0:title><ns0:text x="569.82" y="396.2" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>238 (position.label in template: 238.A)</ns0:title><ns0:text x="566" y="402.72" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>239 (position.label in template: 239.A)</ns0:title><ns0:text x="561.9" y="409.07" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>240 (position.label in template: 240.C)</ns0:title><ns0:text x="557.34" y="415.25" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="556.053" y1="416.529" x2="550.827" y2="422.968" class="black" /></ns0:g>
+<ns0:g><ns0:title>241 (position.label in template: 241.C)</ns0:title><ns0:text x="563.27" y="419.94" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="561.983" y1="421.219" x2="556.767" y2="427.648" class="black" /></ns0:g>
+<ns0:g><ns0:title>242 (position.label in template: 242.U)</ns0:title><ns0:text x="569.21" y="424.62" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="567.965" y1="425.932" x2="563.065" y2="432.305" class="black" /></ns0:g>
+<ns0:g><ns0:title>243 (position.label in template: 243.U)</ns0:title><ns0:text x="575.14" y="429.31" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="573.852" y1="430.589" x2="568.628" y2="437.019" class="black" /></ns0:g>
+<ns0:g><ns0:title>244 (position.label in template: 244.G)</ns0:title><ns0:text x="580.86" y="434" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="579.638" y1="435.33" x2="574.912" y2="441.658" class="black" /></ns0:g>
+<ns0:g><ns0:title>245 (position.label in template: 245.A)</ns0:title><ns0:text x="587.21" y="438.68" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="585.944" y1="439.976" x2="580.886" y2="446.381" class="black" /></ns0:g>
+<ns0:g><ns0:title>246 (position.label in template: 246.U)</ns0:title><ns0:text x="592.93" y="443.37" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="591.643" y1="444.649" x2="586.427" y2="451.078" class="black" /></ns0:g>
+<ns0:g><ns0:title>247 (position.label in template: 247.C)</ns0:title><ns0:text x="599.88" y="440.39" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>248 (position.label in template: 248.C)</ns0:title><ns0:text x="607.44" y="440.19" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>249 (position.label in template: 249.C)</ns0:title><ns0:text x="614.54" y="442.79" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>250 (position.label in template: 250.G)</ns0:title><ns0:text x="619.97" y="447.82" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:text x="625.489" y="443.692" class="numbering-label sequential">250</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="621.442" y1="446.719" x2="623.441" y2="445.223" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>251 (position.label in template: 251.G)</ns0:title><ns0:text x="623.36" y="454.58" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>252 (position.label in template: 252.U)</ns0:title><ns0:text x="624.23" y="462.11" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>253 (position.label in template: 253.C)</ns0:title><ns0:text x="622.06" y="469.35" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>254 (position.label in template: 254.A)</ns0:title><ns0:text x="617.58" y="475.28" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>255 (position.label in template: 255.C)</ns0:title><ns0:text x="610.83" y="479.07" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>256 (position.label in template: 256.G)</ns0:title><ns0:text x="603.14" y="480.18" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>257 (position.label in template: 257.G)</ns0:title><ns0:text x="595.78" y="478.45" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>258 (position.label in template: 258.G)</ns0:title><ns0:text x="589.58" y="474.13" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>259 (position.label in template: 259.G)</ns0:title><ns0:text x="585.4" y="467.82" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>260 (position.label in template: 260.U)</ns0:title><ns0:text x="584.06" y="460.42" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>261 (position.label in template: 261.G)</ns0:title><ns0:text x="585.14" y="452.97" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>262 (position.label in template: 262.A)</ns0:title><ns0:text x="579.62" y="448.29" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>263 (position.label in template: 263.A)</ns0:title><ns0:text x="573.69" y="443.6" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>264 (position.label in template: 264.G)</ns0:title><ns0:text x="567.34" y="438.91" class="green">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>265 (position.label in template: 265.A)</ns0:title><ns0:text x="561.82" y="434.23" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>266 (position.label in template: 266.G)</ns0:title><ns0:text x="555.48" y="429.54" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>267 (position.label in template: 267.G)</ns0:title><ns0:text x="549.54" y="424.86" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>268 (position.label in template: 268.G)</ns0:title><ns0:text x="544.54" y="430.52" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>269 (position.label in template: 269.A)</ns0:title><ns0:text x="539.72" y="435.98" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>270 (position.label in template: 270.A)</ns0:title><ns0:text x="534.26" y="441.21" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>271 (position.label in template: 271.A)</ns0:title><ns0:text x="528.59" y="446.21" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>272 (position.label in template: 272.C)</ns0:title><ns0:text x="522.51" y="450.97" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>273 (position.label in template: 273.C)</ns0:title><ns0:text x="516.45" y="455.48" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>274 (position.label in template: 274.A)</ns0:title><ns0:text x="510.4" y="459.73" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>275 (position.label in template: 275.C)</ns0:title><ns0:text x="503.77" y="463.72" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>276 (position.label in template: 276.A)</ns0:title><ns0:text x="497.4" y="467.44" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>277 (position.label in template: 277.C)</ns0:title><ns0:text x="490.46" y="470.88" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>278 (position.label in template: 278.A)</ns0:title><ns0:text x="483.8" y="474.04" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>279 (position.label in template: 279.G)</ns0:title><ns0:text x="476.38" y="476.9" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>280 (position.label in template: 280.U)</ns0:title><ns0:text x="469.49" y="479.48" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>281 (position.label in template: 281.G)</ns0:title><ns0:text x="462.07" y="481.75" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>282 (position.label in template: 282.A)</ns0:title><ns0:text x="455.19" y="483.73" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>283 (position.label in template: 283.C)</ns0:title><ns0:text x="447.61" y="485.39" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>284 (position.label in template: 284.U)</ns0:title><ns0:text x="440.17" y="486.75" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>285 (position.label in template: 285.G)</ns0:title><ns0:text x="432.47" y="487.8" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>286 (position.label in template: 286.G)</ns0:title><ns0:text x="424.95" y="488.53" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="422.91" y1="488.314" x2="414.97" y2="488.664" class="black" /></ns0:g>
+<ns0:g><ns0:title>287 (position.label in template: 287.G)</ns0:title><ns0:text x="425.27" y="496.09" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="423.23" y1="495.872" x2="415.29" y2="496.215" class="black" /></ns0:g>
+<ns0:g><ns0:title>288 (position.label in template: 288.C)</ns0:title><ns0:text x="425.8" y="503.64" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="423.76" y1="503.419" x2="415.4" y2="503.768" class="black" /></ns0:g>
+<ns0:g><ns0:title>289 (position.label in template: 289.C)</ns0:title><ns0:text x="426.12" y="511.19" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="424.08" y1="510.969" x2="415.73" y2="511.318" class="black" /></ns0:g>
+<ns0:g><ns0:title>290 (position.label in template: 290.C)</ns0:title><ns0:text x="426.45" y="518.75" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="424.41" y1="518.529" x2="416.05" y2="518.878" class="black" /></ns0:g>
+<ns0:g><ns0:title>291 (position.label in template: 291.G)</ns0:title><ns0:text x="433.79" y="518.42" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>292 (position.label in template: 292.U)</ns0:title><ns0:text x="434.32" y="525.98" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>293 (position.label in template: 293.C)</ns0:title><ns0:text x="426.77" y="526.3" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="424.73" y1="526.079" x2="416.37" y2="526.428" class="black" /></ns0:g>
+<ns0:g><ns0:title>294 (position.label in template: 294.G)</ns0:title><ns0:text x="426.88" y="533.85" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="424.84" y1="533.632" x2="416.9" y2="533.975" class="black" /></ns0:g>
+<ns0:g><ns0:title>295 (position.label in template: 295.G)</ns0:title><ns0:text x="427.2" y="541.4" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="425.16" y1="541.184" x2="417.23" y2="541.534" class="black" /></ns0:g>
+<ns0:g><ns0:title>296 (position.label in template: 296.A)</ns0:title><ns0:text x="431.01" y="548.16" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>297 (position.label in template: 297.G)</ns0:title><ns0:text x="427.79" y="555.18" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="425.75" y1="554.962" x2="417.81" y2="555.305" class="black" /></ns0:g>
+<ns0:g><ns0:title>298 (position.label in template: 298.A)</ns0:title><ns0:text x="428.53" y="562.74" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="426.49" y1="562.519" x2="418.14" y2="562.868" class="black" /></ns0:g>
+<ns0:g><ns0:title>299 (position.label in template: 299.C)</ns0:title><ns0:text x="428.65" y="570.29" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="426.61" y1="570.072" x2="418.66" y2="570.416" class="black" /></ns0:g>
+<ns0:g><ns0:title>300 (position.label in template: 300.U)</ns0:title><ns0:text x="435.03" y="574.34" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:text x="439.957" y="569.521" class="numbering-label sequential">300</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="436.344" y1="573.055" x2="438.391" y2="571.052" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>301 (position.label in template: 301.U)</ns0:title><ns0:text x="438.94" y="580.81" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>302 (position.label in template: 302.G)</ns0:title><ns0:text x="439.36" y="588.35" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>303 (position.label in template: 303.U)</ns0:title><ns0:text x="436.79" y="595.38" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>304 (position.label in template: 304.C)</ns0:title><ns0:text x="431.18" y="600.44" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>305 (position.label in template: 305.G)</ns0:title><ns0:text x="423.69" y="602.47" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>306 (position.label in template: 306.G)</ns0:title><ns0:text x="416.26" y="601.06" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>307 (position.label in template: 307.C)</ns0:title><ns0:text x="410.44" y="596.5" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>308 (position.label in template: 308.G)</ns0:title><ns0:text x="406.86" y="589.73" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>309 (position.label in template: 309.U)</ns0:title><ns0:text x="407.06" y="582.17" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>310 (position.label in template: 310.G)</ns0:title><ns0:text x="410.2" y="575.4" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>311 (position.label in template: 311.A)</ns0:title><ns0:text x="416.62" y="570.81" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>312 (position.label in template: 312.U)</ns0:title><ns0:text x="416.1" y="563.26" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>313 (position.label in template: 313.C)</ns0:title><ns0:text x="415.77" y="555.7" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>314 (position.label in template: 314.U)</ns0:title><ns0:text x="412.38" y="548.95" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>315 (position.label in template: 315.C)</ns0:title><ns0:text x="415.19" y="541.93" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>316 (position.label in template: 316.C)</ns0:title><ns0:text x="414.86" y="534.37" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>317 (position.label in template: 317.G)</ns0:title><ns0:text x="414.33" y="526.82" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>318 (position.label in template: 318.G)</ns0:title><ns0:text x="414.01" y="519.27" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>319 (position.label in template: 319.G)</ns0:title><ns0:text x="413.69" y="511.71" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>320 (position.label in template: 320.G)</ns0:title><ns0:text x="413.36" y="504.16" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>321 (position.label in template: 321.C)</ns0:title><ns0:text x="413.25" y="496.61" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>322 (position.label in template: 322.C)</ns0:title><ns0:text x="412.93" y="489.06" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>323 (position.label in template: 323.G)</ns0:title><ns0:text x="405.16" y="488.96" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>324 (position.label in template: 324.A)</ns0:title><ns0:text x="398.03" y="488.56" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>325 (position.label in template: 325.G)</ns0:title><ns0:text x="390.08" y="487.84" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>326 (position.label in template: 326.A)</ns0:title><ns0:text x="383.01" y="486.81" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>327 (position.label in template: 327.A)</ns0:title><ns0:text x="375.57" y="485.46" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>328 (position.label in template: 328.A)</ns0:title><ns0:text x="368.19" y="483.81" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>329 (position.label in template: 329.A)</ns0:title><ns0:text x="360.89" y="481.85" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>330 (position.label in template: 330.G)</ns0:title><ns0:text x="353.26" y="479.59" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>331 (position.label in template: 331.C)</ns0:title><ns0:text x="346.36" y="477.03" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>332 (position.label in template: 332.A)</ns0:title><ns0:text x="339.56" y="474.18" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>333 (position.label in template: 333.C)</ns0:title><ns0:text x="332.48" y="471.03" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>334 (position.label in template: 334.A)</ns0:title><ns0:text x="325.95" y="467.61" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>335 (position.label in template: 335.G)</ns0:title><ns0:text x="318.94" y="463.9" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>336 (position.label in template: 336.C)</ns0:title><ns0:text x="312.73" y="459.92" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>337 (position.label in template: 337.C)</ns0:title><ns0:text x="306.47" y="455.68" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>338 (position.label in template: 338.G)</ns0:title><ns0:text x="300.18" y="451.19" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>339 (position.label in template: 339.A)</ns0:title><ns0:text x="294.71" y="446.44" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>340 (position.label in template: 340.C)</ns0:title><ns0:text x="288.83" y="441.45" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>341 (position.label in template: 341.U)</ns0:title><ns0:text x="283.36" y="436.23" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>342 (position.label in template: 342.G)</ns0:title><ns0:text x="277.9" y="430.78" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>343 (position.label in template: 343.C)</ns0:title><ns0:text x="273.1" y="425.13" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>344 (position.label in template: 344.A)</ns0:title><ns0:text x="268.53" y="419.26" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>345 (position.label in template: 345.C)</ns0:title><ns0:text x="262.21" y="423.71" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>346 (position.label in template: 346.A)</ns0:title><ns0:text x="256.3" y="428.16" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>347 (position.label in template: 347.C)</ns0:title><ns0:text x="249.98" y="432.6" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>348 (position.label in template: 348.G)</ns0:title><ns0:text x="243.66" y="437.05" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>349 (position.label in template: 349.G)</ns0:title><ns0:text x="247.86" y="443.33" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>350 (position.label in template: 350.A)</ns0:title><ns0:text x="245.12" y="450.2" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:text x="249.174" y="455.774" class="numbering-label sequential">350</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="246.201" y1="451.686" x2="248.06" y2="454.242" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>351 (position.label in template: 351.G)</ns0:title><ns0:text x="237.19" y="451.09" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>352 (position.label in template: 352.A)</ns0:title><ns0:text x="232.92" y="445.16" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>353 (position.label in template: 353.A)</ns0:title><ns0:text x="226.81" y="449.61" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>354 (position.label in template: 354.G)</ns0:title><ns0:text x="220.28" y="454.06" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>355 (position.label in template: 355.C)</ns0:title><ns0:text x="214.38" y="458.5" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>356 (position.label in template: 356.C)</ns0:title><ns0:text x="208.26" y="462.95" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>357 (position.label in template: 357.C)</ns0:title><ns0:text x="202.15" y="467.4" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>358 (position.label in template: 358.U)</ns0:title><ns0:text x="196.03" y="471.84" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>359 (position.label in template: 359.G)</ns0:title><ns0:text x="189.71" y="476.29" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>360 (position.label in template: 360.G)</ns0:title><ns0:text x="183.59" y="480.73" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>361 (position.label in template: 361.U)</ns0:title><ns0:text x="177.69" y="485.18" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>362 (position.label in template: 362.U)</ns0:title><ns0:text x="171.58" y="489.63" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>363 (position.label in template: 363.C)</ns0:title><ns0:text x="165.46" y="494.07" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>364 (position.label in template: 364.U)</ns0:title><ns0:text x="159.35" y="498.52" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>365 (position.label in template: 365.G)</ns0:title><ns0:text x="153.02" y="502.97" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>366 (position.label in template: 366.C)</ns0:title><ns0:text x="147.12" y="507.41" class="green">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>367 (position.label in template: 367.A)</ns0:title><ns0:text x="141.21" y="511.86" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>368 (position.label in template: 368.C)</ns0:title><ns0:text x="134.89" y="516.31" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>369 (position.label in template: 369.C)</ns0:title><ns0:text x="128.78" y="520.75" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>370 (position.label in template: 370.G)</ns0:title><ns0:text x="122.45" y="525.2" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>371 (position.label in template: 371.U)</ns0:title><ns0:text x="116.55" y="529.65" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>372 (position.label in template: 372.U)</ns0:title><ns0:text x="110.44" y="534.09" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>373 (position.label in template: 373.G)</ns0:title><ns0:text x="104.11" y="538.54" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>374 (position.label in template: 374.G)</ns0:title><ns0:text x="98" y="542.99" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>375 (position.label in template: 375.A)</ns0:title><ns0:text x="92.3" y="547.43" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>376 (position.label in template: 376.C)</ns0:title><ns0:text x="93.35" y="554.89" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>377 (position.label in template: 377.G)</ns0:title><ns0:text x="91.75" y="562.32" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="90.5429" y1="563.661" x2="85.7971" y2="570.137" class="black" /></ns0:g>
+<ns0:g><ns0:title>378 (position.label in template: 378.C)</ns0:title><ns0:text x="98" y="566.87" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="96.7472" y1="568.176" x2="91.6628" y2="574.721" class="black" /></ns0:g>
+<ns0:g><ns0:title>379 (position.label in template: 379.G)</ns0:title><ns0:text x="103.82" y="571.43" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="102.613" y1="572.771" x2="97.8671" y2="579.247" class="black" /></ns0:g>
+<ns0:g><ns0:title>380 (position.label in template: 380.G)</ns0:title><ns0:text x="109.86" y="575.98" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="108.652" y1="577.32" x2="103.898" y2="583.797" class="black" /></ns0:g>
+<ns0:g><ns0:title>381 (position.label in template: 381.G)</ns0:title><ns0:text x="115.89" y="580.54" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="114.683" y1="581.881" x2="109.937" y2="588.357" class="black" /></ns0:g>
+<ns0:g><ns0:title>382 (position.label in template: 382.U)</ns0:title><ns0:text x="123.65" y="580.11" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>383 (position.label in template: 383.U)</ns0:title><ns0:text x="129.92" y="584.34" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>384 (position.label in template: 384.C)</ns0:title><ns0:text x="132.35" y="591.49" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>385 (position.label in template: 385.G)</ns0:title><ns0:text x="129.75" y="598.67" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>386 (position.label in template: 386.A)</ns0:title><ns0:text x="123.93" y="602.93" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>387 (position.label in template: 387.U)</ns0:title><ns0:text x="116.17" y="602.55" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>388 (position.label in template: 388.U)</ns0:title><ns0:text x="110.39" y="597.68" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>389 (position.label in template: 389.C)</ns0:title><ns0:text x="108.73" y="590.31" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>390 (position.label in template: 390.C)</ns0:title><ns0:text x="102.69" y="585.75" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>391 (position.label in template: 391.C)</ns0:title><ns0:text x="96.66" y="581.2" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>392 (position.label in template: 392.G)</ns0:title><ns0:text x="90.41" y="576.64" class="black">G</ns0:text></ns0:g>
+<ns0:g><ns0:title>393 (position.label in template: 393.C)</ns0:title><ns0:text x="84.59" y="572.09" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>394 (position.label in template: 394.C)</ns0:title><ns0:text x="77.82" y="575.46" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>395 (position.label in template: 395.A)</ns0:title><ns0:text x="78.03" y="583.02" class="green">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>396 (position.label in template: 396.U)</ns0:title><ns0:text x="77.82" y="590.58" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>397 (position.label in template: 397.C)</ns0:title><ns0:text x="77.82" y="598.14" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>398 (position.label in template: 398.U)</ns0:title><ns0:text x="77.82" y="605.7" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>399 (position.label in template: 399.C)</ns0:title><ns0:text x="77.82" y="613.26" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>400 (position.label in template: 400.C)</ns0:title><ns0:text x="77.82" y="620.82" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:text x="84.1631" y="618.125" class="numbering-label sequential">400</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="79.5115" y1="620.101" x2="81.4063" y2="619.296" class="numbering-line sequential" /></ns0:g>
+<ns0:g><ns0:title>401 (position.label in template: 401.A)</ns0:title><ns0:text x="83.2603" y="626.064" class="black">A</ns0:text></ns0:g>
+<ns0:g><ns0:title>402 (position.label in template: 402.C)</ns0:title><ns0:text x="90.8166" y="626.064" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>403 (position.label in template: 403.U)</ns0:title><ns0:text x="98.373" y="626.064" class="green">T</ns0:text></ns0:g>
+<ns0:g><ns0:title>404 (position.label in template: 404.C)</ns0:title><ns0:text x="105.929" y="626.064" class="black">C</ns0:text></ns0:g>
+<ns0:g><ns0:title>405 (position.label in template: 405.3')</ns0:title><ns0:text x="113.486" y="626.064" class="green">3'</ns0:text></ns0:g>
+<ns0:g><ns0:line x1="65.37" y1="626.028" x2="65.37" y2="622.556" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.37" y1="618.472" x2="65.37" y2="614.996" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.37" y1="610.912" x2="65.37" y2="607.436" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.37" y1="603.352" x2="65.37" y2="599.876" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.4833" y1="595.795" x2="65.6767" y2="592.313" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.7333" y1="588.232" x2="65.6367" y2="584.755" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.5233" y1="580.672" x2="65.4267" y2="577.195" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="63.5662" y1="574.196" x2="60.8238" y2="572.741" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="57.588" y1="570.328" x2="55.052" y2="567.75" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="52.813" y1="564.418" x2="51.437" y2="561.22" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="50.46" y1="557.309" x2="50.17" y2="553.839" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="50.5937" y1="549.85" x2="51.6063" y2="546.518" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="53.4669" y1="542.962" x2="55.7031" y2="540.135" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="58.6855" y1="537.426" x2="61.6045" y2="535.541" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="65.3115" y1="533.982" x2="68.6985" y2="533.215" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="72.7152" y1="533.026" x2="76.1648" y2="533.472" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="79.9885" y1="534.701" x2="82.8815" y2="536.257" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="86.3695" y1="536.077" x2="89.5305" y2="533.931" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="92.8503" y1="531.554" x2="95.4897" y2="529.563" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="98.7897" y1="527.158" x2="101.77" y2="525.059" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="105.051" y1="522.629" x2="107.529" y2="520.699" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="110.811" y1="518.269" x2="113.799" y2="516.168" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="117.1" y1="513.764" x2="119.74" y2="511.773" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="123.022" y1="509.343" x2="125.828" y2="507.304" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="129.151" y1="504.929" x2="132.139" y2="502.828" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="135.462" y1="500.453" x2="138.268" y2="498.414" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="141.551" y1="495.985" x2="144.199" y2="493.992" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="147.5" y1="491.588" x2="150.48" y2="489.489" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="151.937" y1="486.283" x2="151.573" y2="482.825" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="153.216" y1="481.645" x2="156.194" y2="483.012" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="159.739" y1="482.716" x2="162.891" y2="480.572" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="166.232" y1="478.223" x2="169.048" y2="476.175" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="172.31" y1="473.717" x2="174.79" y2="471.78" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="178.071" y1="469.35" x2="181.049" y2="467.258" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="184.39" y1="464.908" x2="187.37" y2="462.809" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="190.651" y1="460.379" x2="193.129" y2="458.449" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="196.391" y1="455.992" x2="199.199" y2="453.946" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="202.502" y1="451.543" x2="205.318" y2="449.495" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="208.622" y1="447.093" x2="211.428" y2="445.054" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="214.767" y1="442.704" x2="217.923" y2="440.554" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="221.261" y1="438.202" x2="224.069" y2="436.156" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="226.647" y1="433.134" x2="228.133" y2="430.213" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="231.061" y1="427.986" x2="234.669" y2="427.251" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="238.302" y1="425.616" x2="240.938" y2="423.632" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="244.241" y1="421.229" x2="247.229" y2="419.128" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="250.53" y1="416.724" x2="253.17" y2="414.733" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="256.472" y1="412.331" x2="259.458" y2="410.236" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="260.02" y1="407.349" x2="258.13" y2="404.428" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="255.943" y1="400.979" x2="254.047" y2="397.928" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="252.097" y1="394.348" x2="250.693" y2="391.38" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="248.847" y1="387.738" x2="247.103" y2="384.519" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="245.321" y1="380.849" x2="243.939" y2="377.649" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="242.5" y1="373.831" x2="241.47" y2="370.656" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="240.191" y1="366.778" x2="239.089" y2="363.49" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="237.768" y1="359.625" x2="236.582" y2="356.222" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="233.924" y1="354.769" x2="230.746" y2="355.529" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="226.767" y1="356.451" x2="223.173" y2="357.257" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="219.191" y1="358.166" x2="215.809" y2="358.952" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="211.834" y1="359.888" x2="208.646" y2="360.649" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="204.67" y1="361.583" x2="201.29" y2="362.364" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="197.314" y1="363.298" x2="194.126" y2="364.059" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="191.649" y1="366.516" x2="190.801" y2="369.942" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="189.197" y1="373.636" x2="187.243" y2="376.642" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="184.589" y1="379.694" x2="182.211" y2="381.763" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="178.742" y1="383.775" x2="175.278" y2="384.982" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="171.308" y1="385.664" x2="167.832" y2="385.683" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="163.859" y1="385.029" x2="160.571" y2="383.898" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="157.036" y1="381.97" x2="154.304" y2="379.817" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="151.569" y1="376.853" x2="149.581" y2="373.864" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="148.042" y1="370.163" x2="147.358" y2="366.805" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="147.227" y1="362.781" x2="147.703" y2="359.307" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="148.863" y1="355.442" x2="150.367" y2="352.305" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="152.691" y1="349.017" x2="155.139" y2="346.56" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="158.408" y1="344.204" x2="161.362" y2="342.734" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="165.219" y1="341.594" x2="168.671" y2="341.203" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="172.693" y1="341.418" x2="176.287" y2="342.219" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="179.991" y1="343.778" x2="182.759" y2="345.58" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="185.774" y1="348.265" x2="188.076" y2="351.042" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="191.363" y1="352.125" x2="194.337" y2="351.392" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="198.309" y1="350.442" x2="201.701" y2="349.655" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="205.682" y1="348.746" x2="209.268" y2="347.941" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="213.249" y1="347.032" x2="216.641" y2="346.245" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="220.616" y1="345.309" x2="223.794" y2="344.549" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="227.774" y1="343.635" x2="231.566" y2="342.802" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="233.209" y1="340.352" x2="232.611" y2="336.935" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="231.993" y1="332.899" x2="231.537" y2="329.448" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="231.086" y1="325.39" x2="230.774" y2="321.927" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="230.493" y1="317.854" x2="230.327" y2="314.383" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="230.216" y1="310.302" x2="230.194" y2="306.826" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="230.253" y1="302.743" x2="230.377" y2="299.274" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="230.55" y1="295.194" x2="230.72" y2="291.733" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="231.116" y1="287.673" x2="231.624" y2="284.204" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="232.247" y1="280.168" x2="232.803" y2="276.739" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="233.485" y1="272.713" x2="234.085" y2="269.325" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="234.932" y1="265.332" x2="235.768" y2="261.966" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="236.782" y1="258.01" x2="237.658" y2="254.698" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="238.886" y1="250.808" x2="240.114" y2="247.48" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="241.557" y1="243.659" x2="242.813" y2="240.418" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="244.41" y1="236.662" x2="245.91" y2="233.436" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="247.662" y1="229.747" x2="249.178" y2="226.621" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="250.994" y1="222.963" x2="252.526" y2="219.945" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="254.493" y1="216.368" x2="256.267" y2="213.379" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="258.424" y1="209.912" x2="260.316" y2="207.005" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="262.615" y1="203.631" x2="264.635" y2="200.797" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="267.106" y1="197.547" x2="269.374" y2="194.75" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="271.98" y1="191.606" x2="274.23" y2="188.952" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="276.868" y1="185.834" x2="278.932" y2="183.393" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="281.721" y1="180.418" x2="284.339" y2="177.9" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="287.285" y1="175.072" x2="289.685" y2="172.776" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="292.764" y1="170.099" x2="295.746" y2="167.748" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="298.943" y1="165.206" x2="301.527" y2="163.132" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="304.783" y1="160.669" x2="307.617" y2="158.649" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="310.992" y1="156.351" x2="313.908" y2="154.456" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="317.362" y1="152.278" x2="320.168" y2="150.56" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="323.721" y1="148.55" x2="326.969" y2="146.857" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="330.617" y1="145.022" x2="333.743" y2="143.505" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="337.453" y1="141.801" x2="340.647" y2="140.416" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="344.425" y1="138.869" x2="347.665" y2="137.619" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="351.504" y1="136.227" x2="354.796" y2="135.11" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="358.689" y1="133.879" x2="362.031" y2="132.899" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="365.976" y1="131.847" x2="369.544" y2="130.99" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="373.525" y1="130.08" x2="376.525" y2="129.428" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="380.536" y1="128.669" x2="383.964" y2="128.118" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="388.008" y1="127.553" x2="391.462" y2="127.144" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="395.526" y1="126.751" x2="399.204" y2="126.476" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="403.281" y1="126.251" x2="406.539" y2="126.136" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="410.622" y1="126.076" x2="414.518" y2="126.101" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="418.599" y1="126.22" x2="421.651" y2="126.378" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="425.724" y1="126.662" x2="429.396" y2="126.985" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="433.454" y1="127.434" x2="436.906" y2="127.894" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="440.942" y1="128.515" x2="444.358" y2="129.112" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="448.362" y1="129.913" x2="451.558" y2="130.634" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="455.529" y1="131.589" x2="459.091" y2="132.499" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="463.021" y1="133.606" x2="466.349" y2="134.632" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="469.005" y1="133.317" x2="470.205" y2="130.05" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="471.618" y1="126.218" x2="472.822" y2="122.959" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="474.235" y1="119.127" x2="475.435" y2="115.87" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="476.796" y1="112.02" x2="477.894" y2="108.787" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="479.307" y1="104.957" x2="480.623" y2="101.66" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="482.085" y1="97.8474" x2="483.285" y2="94.59" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="484.647" y1="90.7403" x2="485.743" y2="87.5171" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="487.156" y1="83.6868" x2="488.474" y2="80.3806" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="488.061" y1="76.8095" x2="486.069" y2="73.9579" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="484.6" y1="70.2638" x2="484.09" y2="66.8236" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="484.365" y1="62.8443" x2="485.325" y2="59.5731" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="487.381" y1="56.2079" x2="490.119" y2="53.6095" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="493.52" y1="51.5074" x2="496.6" y2="50.39" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="500.547" y1="49.9447" x2="504.003" y2="50.3727" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="507.733" y1="51.7508" x2="510.627" y2="53.6666" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="513.356" y1="56.5593" x2="515.104" y2="59.5681" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="516.265" y1="63.3713" x2="516.495" y2="66.8361" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="515.896" y1="70.7791" x2="514.674" y2="73.9483" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="512.353" y1="77.1382" x2="509.397" y2="79.5292" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="505.834" y1="81.3299" x2="502.476" y2="82.2075" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="499.843" y1="84.6571" x2="498.747" y2="87.8803" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="497.434" y1="91.7474" x2="496.336" y2="94.98" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="494.878" y1="98.7914" x2="493.452" y2="102.126" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="491.995" y1="105.938" x2="490.905" y2="109.159" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="489.493" y1="112.99" x2="488.177" y2="116.287" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="486.816" y1="120.134" x2="485.824" y2="123.333" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="484.418" y1="127.161" x2="482.992" y2="130.496" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="481.533" y1="134.307" x2="480.437" y2="137.53" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="481.663" y1="140.254" x2="485.047" y2="141.674" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="488.746" y1="143.398" x2="491.504" y2="144.819" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="495.132" y1="146.695" x2="498.378" y2="148.382" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="501.934" y1="150.385" x2="504.756" y2="152.102" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="508.213" y1="154.274" x2="511.127" y2="156.163" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="514.525" y1="158.428" x2="517.535" y2="160.49" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="520.836" y1="162.892" x2="523.584" y2="165.015" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="526.762" y1="167.579" x2="529.418" y2="169.818" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="532.486" y1="172.513" x2="535.054" y2="174.865" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="538.008" y1="177.684" x2="540.472" y2="180.134" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="543.306" y1="183.073" x2="545.664" y2="185.624" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="548.372" y1="188.68" x2="550.618" y2="191.327" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="553.23" y1="194.466" x2="555.51" y2="197.261" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="557.95" y1="200.531" x2="559.84" y2="203.306" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="562.108" y1="206.703" x2="564.012" y2="209.615" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="566.176" y1="213.078" x2="567.954" y2="216.06" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="570.013" y1="219.587" x2="571.787" y2="222.691" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="573.696" y1="226.299" x2="575.224" y2="229.429" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="576.841" y1="233.174" x2="578.009" y2="236.273" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="579.47" y1="240.087" x2="580.73" y2="243.33" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="582.129" y1="247.167" x2="583.251" y2="250.461" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="584.59" y1="254.319" x2="585.79" y2="257.718" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="586.858" y1="261.648" x2="587.502" y2="264.969" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="588.357" y1="268.962" x2="589.163" y2="272.386" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="591.648" y1="274.063" x2="594.882" y2="273.565" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="598.92" y1="272.957" x2="602.57" y2="272.421" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="606.609" y1="271.821" x2="610.041" y2="271.306" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="614.08" y1="270.706" x2="617.72" y2="270.171" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="621.757" y1="269.554" x2="624.783" y2="269.074" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="628.532" y1="267.673" x2="631.638" y2="265.735" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="635.336" y1="265.205" x2="638.684" y2="266.143" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="642.67" y1="266.391" x2="646.11" y2="265.876" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="650.148" y1="265.26" x2="653.372" y2="264.758" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="657.41" y1="264.141" x2="660.85" y2="263.626" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="663.423" y1="261.358" x2="664.367" y2="258.009" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="666.94" y1="255.741" x2="670.38" y2="255.226" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="673.584" y1="256.587" x2="675.736" y2="259.61" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="678.938" y1="260.96" x2="682.172" y2="260.457" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="685.66" y1="258.726" x2="688.05" y2="256.421" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="691.561" y1="254.951" x2="695.249" y2="254.856" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="698.853" y1="256.118" x2="701.517" y2="258.359" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="703.385" y1="261.693" x2="703.905" y2="265.125" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="703.1" y1="268.858" x2="701.21" y2="271.779" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="698.134" y1="274.045" x2="694.786" y2="274.983" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="690.971" y1="274.667" x2="687.649" y2="273.11" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="683.784" y1="272.566" x2="680.756" y2="273.051" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="677.007" y1="274.454" x2="673.913" y2="276.383" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="670.214" y1="276.913" x2="666.866" y2="275.975" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="662.881" y1="275.729" x2="659.439" y2="276.249" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="655.399" y1="276.848" x2="651.761" y2="277.379" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="647.721" y1="277.979" x2="644.279" y2="278.499" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="642.595" y1="280.818" x2="643.175" y2="284.299" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="641.877" y1="287.54" x2="638.963" y2="289.728" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="635.42" y1="290.231" x2="632.16" y2="288.997" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="629.869" y1="286.268" x2="629.221" y2="282.86" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="626.82" y1="281.156" x2="623.38" y2="281.671" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="619.34" y1="282.271" x2="615.69" y2="282.807" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="611.651" y1="283.406" x2="608.219" y2="283.921" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="604.182" y1="284.537" x2="600.948" y2="285.04" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="596.912" y1="285.665" x2="593.678" y2="286.163" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="591.798" y1="288.511" x2="592.032" y2="291.966" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="592.278" y1="296.043" x2="592.462" y2="299.515" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="592.651" y1="303.594" x2="592.789" y2="307.073" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="592.695" y1="311.148" x2="592.395" y2="314.639" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="592.131" y1="318.714" x2="591.979" y2="322.174" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="591.658" y1="326.242" x2="591.262" y2="329.695" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="590.77" y1="333.749" x2="590.33" y2="337.168" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="589.563" y1="341.172" x2="588.677" y2="344.626" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="587.687" y1="348.588" x2="586.863" y2="351.97" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="585.815" y1="355.916" x2="584.855" y2="359.251" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="583.746" y1="363.182" x2="582.854" y2="366.415" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="581.584" y1="370.292" x2="580.346" y2="373.545" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="578.767" y1="377.309" x2="577.283" y2="380.538" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="575.547" y1="384.235" x2="574.043" y2="387.372" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="572.247" y1="391.04" x2="570.733" y2="394.067" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="568.788" y1="397.656" x2="567.032" y2="400.652" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="564.892" y1="404.129" x2="563.008" y2="407.048" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="560.688" y1="410.407" x2="558.552" y2="413.301" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="558.942" y1="416.21" x2="561.668" y2="418.367" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="564.874" y1="420.897" x2="567.606" y2="423.05" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="570.812" y1="425.58" x2="573.538" y2="427.737" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="576.719" y1="430.298" x2="579.281" y2="432.399" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="582.504" y1="434.905" x2="585.566" y2="437.162" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="588.789" y1="439.668" x2="591.351" y2="441.769" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="594.807" y1="442.259" x2="598.003" y2="440.888" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="601.921" y1="440.03" x2="605.399" y2="439.938" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="609.358" y1="440.586" x2="612.622" y2="441.782" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="616.038" y1="443.871" x2="618.472" y2="446.126" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="620.885" y1="449.339" x2="622.445" y2="452.448" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="623.594" y1="456.302" x2="623.996" y2="459.775" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="623.644" y1="463.76" x2="622.646" y2="467.088" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="620.829" y1="470.673" x2="618.811" y2="473.344" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="615.799" y1="475.973" x2="612.611" y2="477.764" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="608.809" y1="479.055" x2="605.161" y2="479.582" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="601.152" y1="479.406" x2="597.768" y2="478.611" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="594.105" y1="476.976" x2="591.255" y2="474.991" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="588.452" y1="472.121" x2="586.528" y2="469.216" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="585.036" y1="465.504" x2="584.424" y2="462.123" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="584.353" y1="458.093" x2="584.847" y2="454.685" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="583.582" y1="451.343" x2="581.178" y2="449.304" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="578.018" y1="446.717" x2="575.292" y2="444.56" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="572.047" y1="442.081" x2="568.983" y2="439.817" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="565.782" y1="437.283" x2="563.378" y2="435.244" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="560.178" y1="432.709" x2="557.122" y2="430.448" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="553.876" y1="427.97" x2="551.144" y2="425.817" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="548.188" y1="426.084" x2="545.892" y2="428.683" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="543.189" y1="431.745" x2="541.071" y2="434.143" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="538.245" y1="437.086" x2="535.735" y2="439.491" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="532.728" y1="442.254" x2="530.122" y2="444.553" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="526.982" y1="447.163" x2="524.118" y2="449.405" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="520.872" y1="451.883" x2="518.088" y2="453.955" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="514.779" y1="456.348" x2="512.071" y2="458.25" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="508.65" y1="460.477" x2="505.52" y2="462.361" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="502.007" y1="464.443" x2="499.163" y2="466.104" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="495.57" y1="468.041" x2="492.29" y2="469.667" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="488.615" y1="471.449" x2="485.645" y2="472.858" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="481.895" y1="474.468" x2="478.285" y2="475.859" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="474.468" y1="477.31" x2="471.402" y2="478.458" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="467.537" y1="479.771" x2="464.023" y2="480.846" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="460.108" y1="482.008" x2="457.152" y2="482.859" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="453.195" y1="483.861" x2="449.605" y2="484.647" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="445.601" y1="485.451" x2="442.179" y2="486.077" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="438.147" y1="486.72" x2="434.493" y2="487.218" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="430.438" y1="487.691" x2="426.982" y2="488.026" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="425.036" y1="490.264" x2="425.184" y2="493.743" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="425.413" y1="497.821" x2="425.657" y2="501.297" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="425.886" y1="505.374" x2="426.034" y2="508.843" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="426.209" y1="512.924" x2="426.361" y2="516.404" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="428.49" y1="518.352" x2="431.75" y2="518.205" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="433.933" y1="520.151" x2="434.177" y2="523.637" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="432.28" y1="525.76" x2="428.81" y2="525.907" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="426.8" y1="528.036" x2="426.85" y2="531.502" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="426.966" y1="535.584" x2="427.114" y2="539.053" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="428.203" y1="542.873" x2="430.007" y2="546.075" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="430.159" y1="549.71" x2="428.641" y2="553.018" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="427.989" y1="556.906" x2="428.331" y2="560.401" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="428.562" y1="564.475" x2="428.618" y2="567.942" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="430.374" y1="571.078" x2="433.306" y2="572.939" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="436.086" y1="575.781" x2="437.884" y2="578.756" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="439.054" y1="582.543" x2="439.246" y2="586.005" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="438.659" y1="589.962" x2="437.491" y2="593.156" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="435.274" y1="596.441" x2="432.696" y2="598.766" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="429.209" y1="600.668" x2="425.661" y2="601.63" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="421.684" y1="601.783" x2="418.266" y2="601.134" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="414.653" y1="599.494" x2="412.047" y2="597.453" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="409.485" y1="594.389" x2="407.815" y2="591.229" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="406.914" y1="587.382" x2="407.006" y2="583.905" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="407.919" y1="580.011" x2="409.341" y2="576.946" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="411.861" y1="573.906" x2="414.959" y2="571.691" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="416.48" y1="568.466" x2="416.24" y2="564.991" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="416.011" y1="560.914" x2="415.859" y2="557.434" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="414.854" y1="553.569" x2="413.296" y2="550.469" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="413.139" y1="546.748" x2="414.431" y2="543.519" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="415.101" y1="539.584" x2="414.949" y2="536.104" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="414.717" y1="532.027" x2="414.473" y2="528.551" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="414.244" y1="524.473" x2="414.096" y2="521.004" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="413.924" y1="516.923" x2="413.776" y2="513.444" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="413.601" y1="509.364" x2="413.449" y2="505.894" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="413.33" y1="501.812" x2="413.28" y2="498.346" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="413.164" y1="494.263" x2="413.016" y2="490.794" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="410.888" y1="488.727" x2="407.202" y2="488.68" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="403.121" y1="488.539" x2="400.069" y2="488.368" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="395.996" y1="488.07" x2="392.114" y2="487.718" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="388.059" y1="487.239" x2="385.031" y2="486.798" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="381.001" y1="486.139" x2="377.579" y2="485.518" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="373.577" y1="484.708" x2="370.183" y2="483.949" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="366.218" y1="482.974" x2="362.862" y2="482.073" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="358.932" y1="480.964" x2="355.218" y2="479.864" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="351.345" y1="478.573" x2="348.275" y2="477.434" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="344.477" y1="475.934" x2="341.443" y2="474.663" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="337.694" y1="473.044" x2="334.346" y2="471.554" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="330.671" y1="469.776" x2="327.759" y2="468.251" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="324.145" y1="466.348" x2="320.745" y2="464.549" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="317.221" y1="462.492" x2="314.449" y2="460.716" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="311.039" y1="458.469" x2="308.161" y2="456.519" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="304.808" y1="454.187" x2="301.842" y2="452.07" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="298.638" y1="449.545" x2="296.252" y2="447.473" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="293.153" y1="444.812" x2="290.387" y2="442.465" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="287.353" y1="439.734" x2="284.837" y2="437.333" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="281.915" y1="434.481" x2="279.345" y2="431.916" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="276.578" y1="428.917" x2="274.422" y2="426.38" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="271.846" y1="423.212" x2="269.784" y2="420.565" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="266.86" y1="420.129" x2="263.88" y2="422.228" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="260.579" y1="424.632" x2="257.931" y2="426.625" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="254.629" y1="429.028" x2="251.651" y2="431.12" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="248.31" y1="433.469" x2="245.33" y2="435.568" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="244.795" y1="438.441" x2="246.725" y2="441.326" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="247.104" y1="444.92" x2="245.876" y2="447.997" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="243.091" y1="450.121" x2="239.219" y2="450.556" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="235.997" y1="449.127" x2="234.113" y2="446.511" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="231.269" y1="446.056" x2="228.461" y2="448.102" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="225.123" y1="450.454" x2="221.967" y2="452.604" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="218.648" y1="454.982" x2="216.012" y2="456.966" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="212.728" y1="459.395" x2="209.912" y2="461.443" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="206.609" y1="463.846" x2="203.801" y2="465.892" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="200.497" y1="468.293" x2="197.683" y2="470.335" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="194.36" y1="472.709" x2="191.38" y2="474.808" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="188.057" y1="477.183" x2="185.243" y2="479.225" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="181.96" y1="481.653" x2="179.32" y2="483.644" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="176.039" y1="486.076" x2="173.231" y2="488.122" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="169.927" y1="490.523" x2="167.113" y2="492.565" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="163.809" y1="494.966" x2="161.001" y2="497.012" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="157.679" y1="499.388" x2="154.691" y2="501.489" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="151.388" y1="503.892" x2="148.752" y2="505.876" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="145.489" y1="508.332" x2="142.841" y2="510.325" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="139.54" y1="512.729" x2="136.56" y2="514.828" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="133.238" y1="517.204" x2="130.432" y2="519.243" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="127.109" y1="521.618" x2="124.121" y2="523.719" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="120.82" y1="526.123" x2="118.18" y2="528.114" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="114.898" y1="530.544" x2="112.092" y2="532.583" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="108.769" y1="534.958" x2="105.781" y2="537.059" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="102.459" y1="539.436" x2="99.6506" y2="541.482" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="96.389" y1="543.939" x2="93.911" y2="545.869" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="92.5846" y1="549.146" x2="93.0654" y2="552.562" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="92.9201" y1="556.58" x2="92.1799" y2="560.017" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="93.4009" y1="563.216" x2="96.3491" y2="565.362" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="99.6074" y1="567.823" x2="102.213" y2="569.864" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="105.451" y1="572.352" x2="108.229" y2="574.445" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="111.489" y1="576.905" x2="114.261" y2="579.002" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="117.929" y1="580.121" x2="121.611" y2="579.917" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="125.343" y1="580.946" x2="128.227" y2="582.892" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="130.577" y1="585.967" x2="131.693" y2="589.25" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="131.655" y1="593.104" x2="130.445" y2="596.444" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="128.102" y1="599.57" x2="125.578" y2="601.418" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="121.89" y1="602.524" x2="118.21" y2="602.344" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="114.608" y1="600.928" x2="111.952" y2="598.689" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="109.941" y1="595.382" x2="109.179" y2="591.996" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="107.1" y1="588.773" x2="104.32" y2="586.674" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="101.06" y1="584.214" x2="98.2901" y2="582.124" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="95.0104" y1="579.69" x2="92.0596" y2="577.537" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="88.8012" y1="575.076" x2="86.1988" y2="573.041" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="82.7619" y1="572.694" x2="79.6481" y2="574.244" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.8767" y1="577.195" x2="77.9733" y2="580.672" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.9733" y1="584.755" x2="77.8767" y2="588.232" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.82" y1="592.316" x2="77.82" y2="595.792" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.82" y1="599.876" x2="77.82" y2="603.352" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.82" y1="607.436" x2="77.82" y2="610.912" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="77.82" y1="614.996" x2="77.82" y2="618.472" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="79.2902" y1="621.931" x2="81.7901" y2="624.341" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="85.3023" y1="625.758" x2="88.7746" y2="625.758" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="92.8587" y1="625.758" x2="96.331" y2="625.758" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="100.415" y1="625.758" x2="103.887" y2="625.758" class="gray" /></ns0:g>
+<ns0:g><ns0:line x1="107.971" y1="625.758" x2="111.444" y2="625.758" class="gray" /></ns0:g>
+</ns0:svg>
