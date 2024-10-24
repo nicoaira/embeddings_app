@@ -8,6 +8,7 @@ WORKDIR /app
 COPY app.py /app/
 COPY data/structure_embeddings.csv /app/
 COPY data/thumbnail_resize /app/thumbnail_resize/
+COPY data/svg_resize /app/svg_resize/
 
 # Install system dependencies (if needed)
 RUN apt-get update && apt-get install -y \
