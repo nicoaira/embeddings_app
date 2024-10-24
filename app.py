@@ -15,6 +15,7 @@ parser.add_argument('--input', required=True, help='Path to the input CSV/TSV fi
 parser.add_argument('--color_column', required=True, help='Column name to use for coloring the points.')
 parser.add_argument('--show_svgs', action='store_true', help='Whether to display SVGs or thumbnails on hover.')
 parser.add_argument('--categorical', action='store_true', help='Treat the color column as categorical even if numeric.')
+parser.add_argument('--jitter', action='store_true', help='Apply jitter to prevent points from overlapping.')
 args = parser.parse_args()
 
 # Load the input dataframe
@@ -33,6 +34,28 @@ for col in required_columns:
 
 # Rename columns for consistency
 df.rename(columns={'tSNE_1': 'tSNE1', 'tSNE_2': 'tSNE2', 'tSNE_3': 'tSNE3'}, inplace=True)
+
+# Apply jitter to prevent overlap of points with the same coordinates
+
+def add_jitter(df, jitter_tSNE1, jitter_tSNE2, jitter_tSNE3):
+    df['tSNE1'] += np.random.uniform(-jitter_tSNE1, jitter_tSNE1, df.shape[0])
+    df['tSNE2'] += np.random.uniform(-jitter_tSNE2, jitter_tSNE2, df.shape[0])
+    df['tSNE3'] += np.random.uniform(-jitter_tSNE3, jitter_tSNE3, df.shape[0])
+    return df
+
+
+if args.jitter:
+    # Calculate 1% of the range for each dimension
+    range_tSNE1 = df['tSNE1'].max() - df['tSNE1'].min()
+    range_tSNE2 = df['tSNE2'].max() - df['tSNE2'].min()
+    range_tSNE3 = df['tSNE3'].max() - df['tSNE3'].min()
+
+    jitter_tSNE1 = 0.01 * range_tSNE1
+    jitter_tSNE2 = 0.01 * range_tSNE2
+    jitter_tSNE3 = 0.01 * range_tSNE3
+
+    # Apply the jitter
+    df = add_jitter(df, jitter_tSNE1, jitter_tSNE2, jitter_tSNE3)
 
 # Ensure color column exists
 if args.color_column not in df.columns:
