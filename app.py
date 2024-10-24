@@ -16,6 +16,7 @@ parser.add_argument('--color_column', required=True, help='Column name to use fo
 parser.add_argument('--show_svgs', action='store_true', help='Whether to display SVGs or thumbnails on hover.')
 args = parser.parse_args()
 
+
 # Load the input dataframe
 if args.input.endswith('.csv'):
     df = pd.read_csv(args.input)

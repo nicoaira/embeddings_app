@@ -6,7 +6,6 @@ WORKDIR /app
 
 # Copy the app code to the container
 COPY app.py /app/
-COPY data /app/data/
 COPY data/structure_embeddings.csv /app/
 COPY data/thumbnail_resize /app/thumbnail_resize/
 COPY data/svg_resize /app/svg_resize/
@@ -22,5 +21,5 @@ RUN pip install --no-cache-dir dash plotly pandas matplotlib
 # Expose the port the app runs on
 EXPOSE 8050
 
-# Set entrypoint to run the Python script with arguments
+# Use ENTRYPOINT to allow passing additional arguments to the Python script
 ENTRYPOINT ["python", "app.py"]

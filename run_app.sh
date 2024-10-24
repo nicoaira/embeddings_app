@@ -30,8 +30,39 @@ else
     fi
 fi
 
-# Run the Docker container and pass all arguments to app.py
-docker run -p 8050:8050 embeddings-app "$@"
+# Parse the command-line arguments
+INPUT_FILE=""
+COLOR_COLUMN=""
+SHOW_SVGS_FLAG=""
+
+while [[ "$#" -gt 0 ]]; do
+    case $1 in
+        --input) INPUT_FILE="$2"; shift ;;
+        --color_column) COLOR_COLUMN="$2"; shift ;;
+        --show_svgs) SHOW_SVGS_FLAG="--show_svgs" ;;
+        *) echo "Unknown parameter passed: $1"; exit 1 ;;
+    esac
+    shift
+done
+
+# Check if the input file is provided
+if [ -z "$INPUT_FILE" ]; then
+  echo "Error: You must specify an input file using --input."
+  exit 1
+fi
+
+# Get the full path of the input file
+FULL_INPUT_PATH=$(realpath "$INPUT_FILE")
+
+# Get the directory containing the input file
+HOST_DIR=$(dirname "$FULL_INPUT_PATH")
+
+# Run the Docker container, mounting the directory containing the input file
+docker run -v "$HOST_DIR":/app/data -p 8050:8050 embeddings-app \
+    --input /app/data/$(basename "$FULL_INPUT_PATH") \
+    --color_column "$COLOR_COLUMN" \
+    $SHOW_SVGS_FLAG
+
 if [ $? -ne 0 ]; then
   echo "Error: Failed to run Docker container."
   exit 1
