@@ -34,12 +34,14 @@ fi
 INPUT_FILE=""
 COLOR_COLUMN=""
 SHOW_SVGS_FLAG=""
+CATEGORICAL_FLAG=""
 
 while [[ "$#" -gt 0 ]]; do
     case $1 in
         --input) INPUT_FILE="$2"; shift ;;
         --color_column) COLOR_COLUMN="$2"; shift ;;
         --show_svgs) SHOW_SVGS_FLAG="--show_svgs" ;;
+        --categorical) CATEGORICAL_FLAG="--categorical" ;;
         *) echo "Unknown parameter passed: $1"; exit 1 ;;
     esac
     shift
@@ -61,7 +63,8 @@ HOST_DIR=$(dirname "$FULL_INPUT_PATH")
 docker run -v "$HOST_DIR":/app/data -p 8050:8050 embeddings-app \
     --input /app/data/$(basename "$FULL_INPUT_PATH") \
     --color_column "$COLOR_COLUMN" \
-    $SHOW_SVGS_FLAG
+    $SHOW_SVGS_FLAG \
+    $CATEGORICAL_FLAG
 
 if [ $? -ne 0 ]; then
   echo "Error: Failed to run Docker container."

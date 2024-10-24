@@ -14,8 +14,8 @@ parser = argparse.ArgumentParser(description='Run the t-SNE Embeddings Visualiza
 parser.add_argument('--input', required=True, help='Path to the input CSV/TSV file containing tSNE data.')
 parser.add_argument('--color_column', required=True, help='Column name to use for coloring the points.')
 parser.add_argument('--show_svgs', action='store_true', help='Whether to display SVGs or thumbnails on hover.')
+parser.add_argument('--categorical', action='store_true', help='Treat the color column as categorical even if numeric.')
 args = parser.parse_args()
-
 
 # Load the input dataframe
 if args.input.endswith('.csv'):
@@ -41,10 +41,16 @@ if args.color_column not in df.columns:
 color_column = args.color_column
 
 # Determine if the color column is categorical or continuous
-if pd.api.types.is_numeric_dtype(df[color_column]):
-    color_type = 'continuous'
-else:
+if args.categorical:
     color_type = 'categorical'
+    # Convert color column to string to force categorical behavior
+    df[color_column] = df[color_column].astype(str)
+elif not pd.api.types.is_numeric_dtype(df[color_column]):
+    color_type = 'categorical'
+    # Convert color column to string to force categorical behavior
+    df[color_column] = df[color_column].astype(str)
+else:
+    color_type = 'continuous'
 
 # Generate colors for categorical data if needed
 if color_type == 'categorical':
@@ -139,45 +145,6 @@ app.layout = html.Div(
         dcc.Tooltip(id='graph-tooltip', direction='bottom') if args.show_svgs else None,
     ],
 )
-
-# Define callback for hover behavior if SVG/Thumbnails are enabled
-if args.show_svgs:
-    @app.callback(
-        Output('graph-tooltip', 'show'),
-        Output('graph-tooltip', 'bbox'),
-        Output('graph-tooltip', 'children'),
-        Input('3d-scatter', 'hoverData'),
-        Input('structure-type', 'value'),
-    )
-    def display_hover(hoverData, structure_type):
-        if hoverData is None:
-            return False, no_update, no_update
-
-        hover_data = hoverData['points'][0]
-        bbox = hover_data['bbox']
-        rnacentral_id = hover_data['customdata'][0] if 'customdata' in hover_data else None
-
-        if not rnacentral_id:
-            return False, no_update, no_update
-
-        svg_file = f'./thumbnail_resize/{rnacentral_id}.thumbnail.svg' if structure_type == 'thumbnails' else f'./svg_resize/{rnacentral_id}.colored.svg'
-
-        if not os.path.exists(svg_file):
-            return False, no_update, no_update
-
-        with open(svg_file, 'rb') as f:
-            svg_content = f.read()
-        encoded_svg = base64.b64encode(svg_content).decode('utf-8')
-        img_src = f'data:image/svg+xml;base64,{encoded_svg}'
-
-        children = [
-            html.Div([
-                html.Img(src=img_src),
-                html.P(f"RNA Type: {rnacentral_id}", style={'font-weight': 'bold'})
-            ])
-        ]
-
-        return True, bbox, children
 
 # Run the app
 if __name__ == '__main__':
