@@ -30,8 +30,8 @@ else
     fi
 fi
 
-# Run the Docker container
-docker run -p 8050:8050 embeddings-app
+# Run the Docker container and pass all arguments to app.py
+docker run -p 8050:8050 embeddings-app "$@"
 if [ $? -ne 0 ]; then
   echo "Error: Failed to run Docker container."
   exit 1
