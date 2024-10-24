@@ -70,7 +70,7 @@ The input file must be either a CSV or TSV file, and it should contain the follo
 *   `tSNE_1`: First t-SNE dimension
 *   `tSNE_2`: Second t-SNE dimension
 *   `tSNE_3`: Third t-SNE dimension
-*   `color_column`: The column you want to use for coloring the points. You can choose any column from the file when running the script using the `--color_column` argument.
+*   `color_column`: The column you want to use for coloring the points
 
 ## Features
 
